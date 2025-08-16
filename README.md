@@ -22,16 +22,7 @@
 
  
 
-### Requirements
 
-- C++ compiler (C++17 e.g. GCC or CLANG)
-- Git CLI tool (or Git GUI client) to clone the repository.
-
-### Installation
-
-1. Clone this repository: `git clone https://github.com/imykie/os-scheduler-simulator`
-2. Navigate to the cloned repository's directory and Compile the source code using the following command: `./run.sh <your-test-file-path.csv>` (the program will also run after using this command)
-3. Run the compiled executable: `./program`
 
 ### Usage Guide
 
@@ -45,21 +36,7 @@
    - **cpu_time2**: The second CPU burst time duration.
    - **io_time**: The I/O burst time duration for the process.
 2. Compile and run the program.
-3. After the execution is completed, the following log files will be generated:
-   ```
-   ├── FCFS-Algorithm-Analysis.log
-   ├── FCFS-Processes-Analysis.log
-   ├── FCFS.log
-   ├── MLFQ-Algorithm-Analysis.log
-   ├── MLFQ-Processes-Analysis.log
-   ├── MLFQ.log
-   ├── RR-Algorithm-Analysis.log
-   ├── RR-Processes-Analysis.log
-   ├── RR.log
-   ├── SJF-Algorithm-Analysis.log
-   ├── SJF-Processes-Analysis.log
-   └── SJF.log
-   ```
+
 
 ## Example
 
